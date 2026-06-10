@@ -28,7 +28,7 @@ A função `DISTINCT` é usada para eliminar valores duplicados dos resultados d
 **Saída:**
 
 │    Country     │
-╞════════════════╡
+| --- |
 │ Brazil         │
 │ Germany        │
 │ Canada         │
