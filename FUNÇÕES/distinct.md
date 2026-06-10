@@ -11,15 +11,15 @@ A função `DISTINCT` é usada para eliminar valores duplicados dos resultados d
 | Customer |
 | --- |
 | Brazil |
-│ Germany |
-│ Canada |
-│ Norway |
-│ Czech Republic │
-│ Czech Republic │
-│ Austria │
-│ Belgium │
-│ Denmark │
-│ Brazil |
+| Germany |
+| Canada |
+| Norway |
+| Czech Republic |
+| Czech Republic |
+| Austria |
+| Belgium |
+| Denmark |
+| Brazil |
 
 ### Tabela com `DISTINCT`:
 
@@ -27,13 +27,13 @@ A função `DISTINCT` é usada para eliminar valores duplicados dos resultados d
 
 **Saída:**
 
-│ Country │
+| Country |
 | --- |
-│ Brazil │
-│ Germany │
-│ Canada │
-│ Norway │
-│ Czech Republic │
-│ Austria │
-│ Belgium │
-│ Denmark │
+| Brazil |
+| Germany |
+| Canada |
+| Norway |
+| Czech Republic |
+| Austria |
+| Belgium |
+| Denmark |
