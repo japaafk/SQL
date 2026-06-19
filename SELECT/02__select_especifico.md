@@ -8,4 +8,13 @@ SELECT FirstName, LastName FROM employee;
 
 Saída:
 
-![alt text](saida_select_especifico.png)
+| FirstName | LastName |
+|---|---|
+| Andrew | Adams |
+| Nancy | Edwards |
+| Jane | Peacock |
+| Margaret | Park |
+| Steve | Johnson |
+| Michael | Mitchell |
+| Robert | King |
+| Laura | Callahan |
