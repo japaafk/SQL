@@ -8,4 +8,8 @@ SELECT * FROM PLaylist WHERE Name LIKE 'Classical %';
 
 **Saída:**
 
-![alt text](comadno_like.png)
+| PlaylistId | Name |
+|---|---|
+| 13 | Classical 101 - Deep Cuts |
+| 14 | Classical 101 - Next Steps |
+| 15 | Classical 101 - The Basics |
