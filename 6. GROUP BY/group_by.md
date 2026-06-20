@@ -33,4 +33,3 @@ SELECT Country, COUNT(*) AS QuantidadeClientes FROM Customer GROUP BY Country;
 | Spain | 1 |
 | Sweden | 1 |
 | USA | 13 |
-| United Kingdom | 3 |
