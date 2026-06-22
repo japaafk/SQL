@@ -1,0 +1,36 @@
+# Organizando em ordem DECRESCENTE
+
+O SQL também nos permite organizar o resultado seguindo a ordem decrescente dos valores, para isso é necessário ao final do comando inserir a cláusula `DESC`
+
+```sql
+SELECT Country, COUNT(*) AS QuantidadeClientes FROM Customer GROUP BY Country ORDER BY QuantidadeClientes DESC;
+```
+
+**Saída:**
+
+| Country | QuantidadeClientes |
+|---|---|
+| USA | 13 |
+| Canada | 8 |
+| France | 5 |
+| Brazil | 5 |
+| Germany | 4 |
+| United Kingdom | 3 |
+| Portugal | 2 |
+| India | 2 |
+| Czech Republic | 2 |
+| Sweden | 1 |
+| Spain | 1 |
+| Poland | 1 |
+| Norway | 1 |
+| Netherlands | 1 |
+| Italy | 1 |
+| Ireland | 1 |
+| Hungary | 1 |
+| Finland | 1 |
+| Denmark | 1 |
+| Chile | 1 |
+| Belgium | 1 |
+| Austria | 1 |
+| Australia | 1 |
+| Argentina | 1 |
