@@ -11,4 +11,4 @@ SELECT Country, COUNT(*) AS QuantidadeCliente FROM Customer GROUP BY Country HAV
 | Country | QuantidadeCliente |
 |---|---|
 | USA | 13 |
-| Canada | 8 |
+| Canada | 8 |  
