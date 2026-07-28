@@ -7,9 +7,9 @@ Para entender o funcionamento, a leitura deve ser feita de dentro para fora (das
 **Fluxo de conectividade:** 
 ```mermaid
 flowchart LR
-    A[InvoiceLine\n(Itens Vendidos)] -->|TrackId| B[Track\n(Faixas)]
-    B -->|AlbumId| C[Album\n(Álbuns)]
-    C -->|ArtistId| D[Artist\n(Artistas)]
+    A["InvoiceLine\n(Itens Vendidos)"] -->|TrackId| B["Track\n(Faixas)"]
+    B -->|AlbumId| C["Album\n(Álbuns)"]
+    C -->|ArtistId| D["Artist\n(Artistas)"]
 ```
 
 **NOTA:** Observe a cláusula `IN` na consulta abaixo. Ela funciona como uma forma simplificada de testar **múltiplas opções de uma só vez**. Enquanto o operador `=` compara o campo com um **único valor específico** (`coluna = 1`), o `IN` verifica se o campo atende a qualquer um dos valores contidos na lista (`coluna IN (1, 2, 3)`)
