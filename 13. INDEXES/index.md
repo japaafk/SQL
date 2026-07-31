@@ -12,9 +12,9 @@ A partir disso, o tempo exato de execução aparecerá abaixo da saída de cada 
 ## **Consulta sem INDEX**
 
 Primeiro, fazemos uma busca normal na coluna `Name` antes de criar o índice:
-\`\`\`sql   
+```sql   
 SELECT TrackId, Name FROM Track WHERE Name LIKE 'Love%';
-\`\`\`
+```
 
 | TrackId | Name                        |
 |---------|------------------------------|
@@ -65,9 +65,9 @@ CREATE INDEX Track_nome ON Track (Name);
 ## **Comparando o Resultado**
 
 Com o índice já criado, executamos exatamente a mesma consulta:
-\`\`\`sql
+```sql
 SELECT TrackId, Name FROM Track WHERE Name LIKE 'Love%';
-\`\`\`
+```
 
 | TrackId | Name                        |
 |---------|------------------------------|
