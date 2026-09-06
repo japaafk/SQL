@@ -1,6 +1,6 @@
 # CRIANDO TABELAS
 
-A claúsula `CREATE TABLE` tem por funcionalidade criar uma nova tabela dentro do Banco de Dados. Com isso, após colocar um nome de identificação para a tabela é preciso nomear suas colunas juntamente com o <ins>tipo de dado específico</ins> que ela vai receber. Normalmente você precisa executar somente uma vez esse comando
+A cláusula `CREATE TABLE` é usada para criar uma nova tabela dentro do Banco de Dados. Ao definir um nome para a tabela, é necessário nomear suas colunas juntamente com o <ins>tipo de dado específico</ins> que ela vai receber. Geralmente, esse comando é executado apenas uma vez
 
 ## **Sintaxe Básica**
 ```sql
@@ -11,7 +11,8 @@ CREATE TABLE nome_da_tabela (
 );
 ```
 
-Para servir de exemplo vamos criar a tabela `tabela_exemplo`. Tendo consigo uma coluna inteira como chave primária e uma coluna de texto
+Para servir de exemplo, vamos criar a tabela `tabela_exemplo`. Tendo consigo uma coluna do tipo inteira como chave primária e uma coluna do tipo texto
+**Nota:** Caso queira vizualar a tabela criada, por precedência é preciso adicionar valores nas suas linhas usando o o comando `INSERT INTO`
 
 ```sql
 CREATE TABLE tabela_exemplo (
